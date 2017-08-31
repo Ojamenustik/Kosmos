@@ -24,19 +24,36 @@
 /*Small devices (Portrait Tablets & Small Deskotps)*/
 
 @media (min-width:768px) and (max-width:991px){
+   .navbar{
+      background: rgb(0,0,0);
+      padding: 0;
+   }
    
+   .navbar-nav{
+      float: left;
+   }
+   
+   .universe-nav-wrapper{
+      padding:0;
+   }
 }
 
 /*Extra small Devices (Landscape Phones & Portrait Tablets*/
 @media (max-width: 767px){
-   
+   .navbar{
+      background: rgb(0,0,0);
+      padding: 0;
 }
 
 /*Extra small devices*/
 @media (max-width: 480px){
-   
+   .navbar{
+      background: rgb(0,0,0);
+      padding: 0;
 }
 
 @media (max-width:320px){
-   
+   .navbar{
+      background: rgb(0,0,0);
+      padding: 0;
 }
